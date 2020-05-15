@@ -44,6 +44,8 @@ ChatBot::~ChatBot()
 
 //// STUDENT CODE
 ////
+// ChatBot copy constructor's definition
+
 
 ////
 //// EOF STUDENT CODE

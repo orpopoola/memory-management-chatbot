@@ -63,10 +63,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot
+CMAKE_SOURCE_DIR = /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build
+CMAKE_BINARY_DIR = /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/membot.dir/depend.make
@@ -79,68 +79,68 @@ include CMakeFiles/membot.dir/flags.make
 
 CMakeFiles/membot.dir/src/chatbot.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatbot.cpp.o: ../src/chatbot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/membot.dir/src/chatbot.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatbot.cpp.o -c /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatbot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/membot.dir/src/chatbot.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatbot.cpp.o -c /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatbot.cpp
 
 CMakeFiles/membot.dir/src/chatbot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/chatbot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatbot.cpp > CMakeFiles/membot.dir/src/chatbot.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatbot.cpp > CMakeFiles/membot.dir/src/chatbot.cpp.i
 
 CMakeFiles/membot.dir/src/chatbot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/chatbot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatbot.cpp -o CMakeFiles/membot.dir/src/chatbot.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatbot.cpp -o CMakeFiles/membot.dir/src/chatbot.cpp.s
 
 CMakeFiles/membot.dir/src/chatgui.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatgui.cpp.o: ../src/chatgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/membot.dir/src/chatgui.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatgui.cpp.o -c /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/membot.dir/src/chatgui.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatgui.cpp.o -c /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.cpp
 
 CMakeFiles/membot.dir/src/chatgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/chatgui.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.cpp > CMakeFiles/membot.dir/src/chatgui.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.cpp > CMakeFiles/membot.dir/src/chatgui.cpp.i
 
 CMakeFiles/membot.dir/src/chatgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/chatgui.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.cpp -o CMakeFiles/membot.dir/src/chatgui.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.cpp -o CMakeFiles/membot.dir/src/chatgui.cpp.s
 
 CMakeFiles/membot.dir/src/chatlogic.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/chatlogic.cpp.o: ../src/chatlogic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/membot.dir/src/chatlogic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatlogic.cpp.o -c /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/chatlogic.cpp.o -c /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp
 
 CMakeFiles/membot.dir/src/chatlogic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/chatlogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp > CMakeFiles/membot.dir/src/chatlogic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp > CMakeFiles/membot.dir/src/chatlogic.cpp.i
 
 CMakeFiles/membot.dir/src/chatlogic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/chatlogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp -o CMakeFiles/membot.dir/src/chatlogic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp -o CMakeFiles/membot.dir/src/chatlogic.cpp.s
 
 CMakeFiles/membot.dir/src/graphedge.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/graphedge.cpp.o: ../src/graphedge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/membot.dir/src/graphedge.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphedge.cpp.o -c /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphedge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/membot.dir/src/graphedge.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphedge.cpp.o -c /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphedge.cpp
 
 CMakeFiles/membot.dir/src/graphedge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/graphedge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphedge.cpp > CMakeFiles/membot.dir/src/graphedge.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphedge.cpp > CMakeFiles/membot.dir/src/graphedge.cpp.i
 
 CMakeFiles/membot.dir/src/graphedge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/graphedge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphedge.cpp -o CMakeFiles/membot.dir/src/graphedge.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphedge.cpp -o CMakeFiles/membot.dir/src/graphedge.cpp.s
 
 CMakeFiles/membot.dir/src/graphnode.cpp.o: CMakeFiles/membot.dir/flags.make
 CMakeFiles/membot.dir/src/graphnode.cpp.o: ../src/graphnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/membot.dir/src/graphnode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphnode.cpp.o -c /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/membot.dir/src/graphnode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/membot.dir/src/graphnode.cpp.o -c /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphnode.cpp
 
 CMakeFiles/membot.dir/src/graphnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/membot.dir/src/graphnode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphnode.cpp > CMakeFiles/membot.dir/src/graphnode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphnode.cpp > CMakeFiles/membot.dir/src/graphnode.cpp.i
 
 CMakeFiles/membot.dir/src/graphnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/membot.dir/src/graphnode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphnode.cpp -o CMakeFiles/membot.dir/src/graphnode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/graphnode.cpp -o CMakeFiles/membot.dir/src/graphnode.cpp.s
 
 # Object files for target membot
 membot_OBJECTS = \
@@ -160,7 +160,7 @@ membot: CMakeFiles/membot.dir/src/graphedge.cpp.o
 membot: CMakeFiles/membot.dir/src/graphnode.cpp.o
 membot: CMakeFiles/membot.dir/build.make
 membot: CMakeFiles/membot.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable membot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable membot"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/membot.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -173,6 +173,6 @@ CMakeFiles/membot.dir/clean:
 .PHONY : CMakeFiles/membot.dir/clean
 
 CMakeFiles/membot.dir/depend:
-	cd /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build /mnt/c/users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles/membot.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/build/CMakeFiles/membot.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/membot.dir/depend
 
