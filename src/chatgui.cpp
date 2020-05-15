@@ -139,7 +139,7 @@ ChatBotPanelDialog::~ChatBotPanelDialog()
     //// STUDENT CODE
     ////
     //Task 0;
-    //delete _chatLogic;
+   // delete _chatLogic.get();
 
     ////
     //// EOF STUDENT CODE

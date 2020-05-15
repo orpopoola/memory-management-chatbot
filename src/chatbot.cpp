@@ -42,11 +42,57 @@ ChatBot::~ChatBot()
     }
 }
 
-//// STUDENT CODE
+//// STUDENT CODE Rule of Five Copy constructor, move constructor, copy operator, move operator
 ////
 // ChatBot copy constructor's definition
+ChatBot::ChatBot(const ChatBot &source) // Rule 2 of 5 copy constuctor
+{
+    std::cout<<"Started chatbot copy constructor"<<"\n";
+    _rootNode = source._rootNode;
+    _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
+    _image = new wxBitmap();
+    *_image = *source._image;
+}
+ChatBot &ChatBot::operator=(const ChatBot &source) //Rule 3 of 5 copy assignment operator
+{
+    std::cout<<"Started chatbot copy assignment operator"<<"\n";
+    if (this == &source){return *this;}   
+    if(_image != nullptr){delete _image;}   
+    _image = new wxBitmap();
+    *_image = *source._image;
+    _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
+    _rootNode = source._rootNode;
+    return *this;
+}
 
 
+ChatBot::ChatBot(ChatBot &&source) // Rule 4 of 5 Move constructors
+{
+    std::cout<<"Started chatbot move constructor"<<"\n";
+    _rootNode = source._rootNode;
+    _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
+    _image = new wxBitmap();
+    *_image = *source._image;
+    source._rootNode = nullptr;
+    source._chatLogic = nullptr;
+    source._image = nullptr;     
+}
+ChatBot &ChatBot::operator=(ChatBot &&source) //Rule 5 of 5 move assignment operator
+{
+    std::cout<<"Started chatbot move assignment operator"<<"\n";
+    if(this == &source){return *this;}        
+    if(_image != nullptr){delete _image;}        
+    _image = source._image;
+    _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
+    _rootNode = source._rootNode;
+    source._image = nullptr;
+    source._chatLogic = nullptr;
+        return *this;
+}
 ////
 //// EOF STUDENT CODE
 
