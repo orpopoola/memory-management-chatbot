@@ -37,6 +37,8 @@ wx/colour.h
 -
 wx/image.h
 -
+memory
+-
 string
 -
 chatbot.h
@@ -48,6 +50,8 @@ chatgui.h
 
 /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatgui.h
 wx/wx.h
+-
+memory
 -
 
 /mnt/c/Users/olaol/Documents/Ola-cpp-projects/memory-management-chatbot/src/chatlogic.cpp
