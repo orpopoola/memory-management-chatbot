@@ -42,7 +42,7 @@ ChatBot::~ChatBot()
     }
 }
 
-//// STUDENT CODE Rule of Five Copy constructor, move constructor, copy operator, move operator
+//// STUDENT CODE Task 2: Rule of Five Copy constructor, move constructor, copy operator, move operator
 ////
 // ChatBot copy constructor's definition
 ChatBot::ChatBot(const ChatBot &source) // Rule 2 of 5 copy constuctor
