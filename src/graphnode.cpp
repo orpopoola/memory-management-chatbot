@@ -43,7 +43,6 @@ void GraphNode::MoveChatbotHere(ChatBot chatbot)
 
 void GraphNode::MoveChatbotToNewNode(GraphNode *newNode)
 {
-    ChatBot movedchatbot = ChatBot("../images/chatbot.png");
     newNode->MoveChatbotHere(std::move(_chatBot));
 }
 ////
